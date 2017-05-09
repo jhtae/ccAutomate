@@ -16,7 +16,8 @@ let Style = StyleSheet.create({
         flex: 8,
         paddingLeft: 15,
         paddingTop: 20,
-        backgroundColor: '#3E606F'
+        backgroundColor: '#3E606F',
+        paddingRight: 15
     },
 
     textLabelFields: {
@@ -31,6 +32,9 @@ let Style = StyleSheet.create({
     pickerStyle: {
         marginLeft: 20,
         width: 200,
+    },
+    buttonStyle: {
+
     }
 });
 
