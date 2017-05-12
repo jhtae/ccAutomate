@@ -14,12 +14,12 @@ class ccAutomate extends Component {
     this.dateParser = this.dateParser.bind(this);
   }
 
-  componentDidMount() {
-    Linking.addEventListener('url', this.handleClick);
-  }
-  componentWillUnmount() {
-    Linking.removeEventListener('url', this.handleClick);
-  }
+  // componentDidMount() {
+  //   Linking.addEventListener('url', this.handleClick);
+  // }
+  // componentWillUnmount() {
+  //   Linking.removeEventListener('url', this.handleClick);
+  // }
 
   
   dateParser(date, frequency) {
